@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Тема и Саша — 08.07.2026</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════ -->
+  <!--  ВСТУПИТЕЛЬНЫЕ ЭКРАНЫ (scroll-story)    -->
+  <!-- ════════════════════════════════════════ -->
+
+  <!-- Экран 1 -->
+  <section class="story-screen" id="screen-1">
+    <div class="story-content screen-1-wrapper">
+      <div class="wed-text">
+        <p class="wedding">Wedding</p>
+        <p class="day">Day</p>
+      </div>
+      <div class="screen-1-content">
+        <div class="screen-1-left">
+          <img src="Ain2.png" alt="А в квадрате" class="photo-a" />
+        </div>
+        <div class="screen-1-divider"></div>
+        <div class="screen-1-right">
+          <p class="names-line">Артём</p>
+          <p class="names-line">& Александра</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Экран 2 -->
+  <section class="story-screen" id="screen-2">
+    <div class="story-content">
+
+
+      <div class="polaroid-photos">
+        <div class="photo-card--polaroid scroll-reveal" data-delay="400">
+          <div class="photo-frame">
+            <img src="saska1.jpg" alt="Сашуля"/>
+          </div>
+          
+        </div>    
+      </div>
+
+      <p class="decorative-plus">+</p>
+
+      <div class="polaroid-photos">
+        <div class="photo-card--polaroid scroll-reveal">
+          <div class="photo-frame">
+            <img src="Tema6.png" alt=""/>
+          </div>
+          
+        </div>   
+      </div>
+      
+
+      <div class="polaroid-photos" style="grid-column: 1 / -1;">
+        <p class="decorative-ravno">=</p>
+        <div class="photo-card--polaroid scroll-reveal" data-delay="400" style="width: clamp(203px, 38vw, 372px);">
+          <div class="photo-frame" >
+            <img src="muzhzhena.png" alt="Мы ❤️"/>
+          </div>
+         
+        </div>
+      </div>
+
+      <div class="text-block-palroid">
+        <p class="text-palaroid">
+          Если вдруг вы не узнали этих малышей, то это Мы! Маленькие Тема и Саша встретились и решили взрослеть вместе, теперь мы Жених и Невеста!
+        </p>
+      </div>
+    </div>
+    <div class="finale-flower scroll-reveal" style="margin-top: 2.5rem;">✿</div>
+
+  </section>
+
+
+  <!-- Экран 3 -->
+  <section class="story-screen" id="screen-3">
+    <div class="story-content">
+
+      <div class="head-text">
+        <p>Дорогие родные и близкие!</p>
+      </div>
+
+      <p class="screen-title fade-up delay-200">
+        С огромной радостью сообщаем Вам, что уже этим летом мы женимся!<br>Мы будем счастливы разделить с Вами этот неповторимый для нас день – День, когда мы станем Семьей и скажем друг другу такое важное «ДА»!
+      </p>
+      <div class="counter">
+        <p class="story-date fade-up">Ждём вас</p>
+        <p class="story-date-big fade-up delay-200">08.07.2026</p>
+        <p class="story-date fade-up">Через</p>      
+        <div class="countdown scroll-reveal delay-400" id="countdown">
+          <div class="count-block">
+            <span class="count-num" id="cnt-days">00</span>
+            <span class="count-label">дней</span>
+          </div>
+          <div class="count-sep">:</div>
+          <div class="count-block">
+            <span class="count-num" id="cnt-hours">00</span>
+            <span class="count-label">часов</span>
+          </div>
+          <div class="count-sep">:</div>
+          <div class="count-block">
+            <span class="count-num" id="cnt-mins">00</span>
+            <span class="count-label">минут</span>
+          </div>
+          <div class="count-sep">:</div>
+          <div class="count-block">
+            <span class="count-num" id="cnt-secs">00</span>
+            <span class="count-label">секунд</span>
+          </div>
+        </div>
+      </div>
+      <p class="story-date fade-up">Листайте дальше, и Вы узнаете чуть больше про наше торжество, а в конце Вас ждет анкета, которую мы просим заполнить до 8 июня!</p>
+
+    </div>
+    <div class="finale-flower scroll-reveal" style="margin: 2.5rem 0;">✿</div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════ -->
+  <!--  ОСНОВНЫЕ БЛОКИ                         -->
+  <!-- ════════════════════════════════════════ -->
+
+  <!-- Блок: Дата -->
+  <section class="block" id="block-date">
+    <div class="block-inner">
+      <div class="scroll-reveal" style="padding-bottom: 20px;">
+        <span class="block-eyebrow">Дата</span>
+        <h2 class="block-title">08.07.2026</h2>
+        <p class="block-subtitle">— День семьи, любви и верности</p>
+      </div>
+      <div class="scroll-reveal" style="text-align: left;">
+        <span class="block-eyebrow">Этот день точно стоит отметить в календаре</span>
+        <h2 class="block-title-sm">Июль 2026</h2>
+      </div>
+      <div class="calendar scroll-reveal delay-200" style="align-items: center;">
+        <div class="cal-header">
+          <span>Пн</span><span>Вт</span><span>Ср</span><span>Чт</span><span>Пт</span><span style="color: brown;">Сб</span><span style="color: brown;">Вс</span>
+        </div>
+        <div class="cal-body" id="cal-body">
+          <!-- filled by JS -->
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+
+  <!-- Блок: Тайминг -->
+  <section class="block block--light" id="block-timing">
+    <div class="block-inner">
+      <div class="scroll-reveal">
+        <span class="block-eyebrow">Программа дня</span>
+        <h2 class="block-title-sm">Как всё пройдёт</h2>
+      </div>
+      <ol class="timeline timeline-two-column">
+        <svg class="timeline-line" viewBox="0 0 1000 1200" preserveAspectRatio="none">
+          <path d="M 500 0 Q 300 100, 500 200 Q 700 300, 500 400 Q 300 500, 500 600 Q 700 700, 500 800 Q 300 900, 500 1000 Q 700 1100, 500 1200" 
+                stroke="#1a1a1a" stroke-width="2" fill="none"/>
+        </svg>
+        <li class="timeline-item timeline-item--right scroll-reveal" data-delay="0">
+          <div class="tl-heart"></div>
+          <span class="tl-time">15:00</span>
+          <div class="tl-content">
+            <strong>Сбор гостей</strong>
+            <p>Встречаемся и знакомимся под игристое!</p>
+          </div>
+        </li>
+        <li class="timeline-item timeline-item--left scroll-reveal" data-delay="150">
+          <div class="tl-content" id="ceremony">
+            <strong>Выездная церемония</strong>
+          </div>
+          <span class="tl-time">16:00</span>
+          <div class="tl-heart"></div>
+        </li>
+        <li class="timeline-item timeline-item--right scroll-reveal" data-delay="300">
+          <div class="tl-heart"></div>
+          <span class="tl-time">16:30</span>
+          <div class="tl-content">
+            <strong>Фотосессия</strong>
+            <p>Прогулка по Яхт-клубу и групповые снимки!</p>
+          </div>
+        </li>
+        <li class="timeline-item timeline-item--left scroll-reveal" data-delay="450">
+          <div class="tl-content">
+            <strong>Банкет</strong>
+            <p>Вкусная еда, хорошая музыка и поздравления</p>
+          </div>
+          <span class="tl-time">17:00</span>
+          <div class="tl-heart"></div>
+        </li>
+        <li class="timeline-item timeline-item--right scroll-reveal" data-delay="600">
+          <div class="tl-heart"></div>
+          <span class="tl-time">21:00</span>
+          <div class="tl-content">
+            <strong>Торт</strong>
+            <p>Кульминация вечера</p>
+          </div>
+        </li>
+        <li class="timeline-item timeline-item--left scroll-reveal" data-delay="750">
+          <div class="tl-content">
+            <strong>Финал</strong>
+
+          </div>
+          <span class="tl-time">23:00</span>
+          <div class="tl-heart"></div>
+        </li>        
+      </ol>
+      <div class="finale-flower scroll-reveal" style="margin: 2.5rem 0 0 0;">✿</div>
+    </div>
+  </section>
+
+
+  <!-- Блок: Место -->
+  <section class="block" id="block-venue">
+    <div class="block-inner">
+      <div class="scroll-reveal">
+        <span class="block-eyebrow">О месте проведения</span>
+        <h2 class="block-title">Ново-Рождественно</h2>
+        <p class="block-desc">
+          Удаленное от шумного города и трасс место, находящееся на стыке двух рек (р. Быковка и Москва-река). Много зелени, свежий воздух, просторный шатер… Красивые фотографии, яркие воспоминания и отдых от городской суеты Вам точно обеспечены!
+        </p>
+      </div>
+      <div class="venue-gallery">
+        <div class="venue-img scroll-reveal" data-delay="0">
+          <img src="Novorozh.jpg" alt="Шатёр" />
+        </div>
+        <div class="venue-img venue-img--tall scroll-reveal" data-delay="150">
+          <img src="Novorozh_lug.webp" alt="Украшения" />
+        </div>
+        <div class="venue-img scroll-reveal" data-delay="300">
+          <img src="Novorozh_InShater.jpg" alt="Цветы" />
+        </div>
+        <div class="venue-img venue-img--wide scroll-reveal" data-delay="450">
+          <img src="Novorozh_river.webp" alt="Пейзаж" />
+        </div>
+      </div>
+
+      <div class="scroll-reveal">
+        <span class="block-eyebrow">Дети - цветы жизни!</span>
+        <p class="block-desc">
+          Для наших самых маленьких, но не менее важных гостей, на территории есть контактный зоопарк и игровая площадка!
+        </p>
+      </div>
+
+      <div class="venue-gallery">
+        <div class="venue-img scroll-reveal" data-delay="0">
+          <img src="Novorozh_bamby.png" alt="Бэмби" />
+        </div>
+        <div class="venue-img venue-img--tall scroll-reveal" data-delay="150">
+          <img src="Novorozh_sheep.webp" alt="Овечки" />
+        </div>
+        <div class="venue-img scroll-reveal" data-delay="300">
+          <img src="Novorozh_verblud.png" alt="Верблюды" />
+        </div>
+        <div class="venue-img venue-img--wide scroll-reveal" data-delay="450">
+          <img src="Novorozh_pavlin.webp" alt="Павлины" />
+        </div>
+      </div>
+      <div class="scroll-reveal">
+        <span class="block-eyebrow">Где находится?</span>
+        <p class="block-desc">
+          Название: Яхт-клуб «Ново-Рождественно»<br>
+          Адрес: Московская область, г. Жуковский, ул. Речной проезд, д. 21, стр.6<br>
+          Рядом есть парковка и удобный подъезд для всех гостей.
+        </p>
+        <div style="border-radius: 15px; overflow: hidden; margin-top: 20px;">
+          <script type="text/javascript" charset="utf-8" defer src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A71d213fbe8a86532ccba13dfbbba5c2bd8e77f97272d46763b63843e05a27ce9&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=false"></script>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Блок: Дресс-код -->
+  <section class="block block--light" id="block-dress-code">
+    <div class="block-inner">
+      <div class="scroll-reveal">
+        <span class="block-eyebrow">Детали</span>
+        <h2 class="block-title-sm">Стиль нашего дня</h2>
+        <p class="block-desc">
+          Дорогие Дамы, нам будет приятно, если вы выберете для себя наряд в пастельных тонах, который подчеркнет атмосферу нашего праздника. Мужчины, не волнуйтесь - Вам всего лишь нужно выглядеть стильно и опрятно!
+        </p>
+      </div>
+      <div class="finale-flower scroll-reveal" style="margin-top: 2.5rem;">✿</div>
+    </div>
+  </section>
+
+  <!-- Блок: Организатор -->
+  <section class="block block--rose" id="block-organizer">
+    <div class="block-inner">
+      <div class="scroll-reveal">
+        <span class="block-eyebrow">Организация</span>
+        <h2 class="block-title-sm">Контакты</h2>
+        <p class="block-desc">
+          Если вы подготовили творческий подарок или сюрприз, пожалуйста, предупредите нашего организатора - <b>Марию</b>, она поможет Вам реализовать Вашу задумку и внести в программу.
+        </p>
+        <a class="organizer-phone" href="tel:+79199620319">
+           <svg width="1em" height="1em" viewBox="0 0 26 26" fill="currentColor" style="display: inline; vertical-align: -0.125em; margin-right: 0.3em;">
+             <path d="M19.95 21c-1.05 0-4.08-1.5-7.69-5.11-3.61-3.61-5.12-6.64-5.12-7.69 0-.54.21-1.05.61-1.41l2.08-2.08c.54-.54 1.41-.54 1.95 0l1.41 1.41c.54.54.54 1.41 0 1.95l-.75.75c-.54.54-.54 1.41 0 1.95 2.04 2.04 4.5 4.5 6.54 6.54.54.54 1.41.54 1.95 0l.75-.75c.54-.54 1.41-.54 1.95 0l1.41 1.41c.54.54.54 1.41 0 1.95l-2.08 2.08c-.36.4-.87.61-1.41.61z"/>
+           </svg>
+           +7 (919) 962-03-19
+        </a>
+        <a class="organizer-phone" href="https://t.me/panteleevamaa" target="_blank">
+           <svg width="1em" height="1em" viewBox="0 0 24 24" fill="currentColor" style="display: inline; vertical-align: -0.125em; margin-right: 0.3em;">
+             <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.33-.373-.117l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.54-.203 1.01.122.84.997z"/>
+           </svg>
+           Telegram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Блок: RSVP -->
+  <section class="block" id="block-rsvp">
+    <div class="block-inner">
+      <div class="scroll-reveal">
+        <span class="block-eyebrow">Подтверждение</span>
+        <h2 class="block-title-sm">Будете&nbsp;с нами?</h2>
+        <p class="block-desc">Мы хотели бы услышать ваш <b>положительный</b> ответ до <b>08.06.2026</b></p>
+      </div>
+      <form class="rsvp-form scroll-reveal delay-200" id="rsvp-form" novalidate>
+        <div class="form-group">
+          <label for="f-name">Ваше имя</label>
+          <input type="text" id="f-name" name="name" placeholder="Иван Тенсаев" required />
+        </div>
+        <div class="form-group">
+          <label>Вы придёте?</label>
+          <div class="radio-group">
+            <label class="radio-label">
+              <input type="radio" name="attend" value="yes" /> 
+              <span>Да, конечно! 🎉</span>
+            </label>
+            <label class="radio-label">
+              <input type="radio" name="attend" value="no" />
+              <span>К сожалению, нет 😢</span>
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="f-guests">Количество гостей (включая вас)</label>
+          <input type="number" id="f-guests" name="guests" min="1" max="10" value="1" />
+        </div>
+        <div class="form-group">
+          <label for="f-allergies">Аллергии или пищевые ограничения</label>
+          <textarea id="f-allergies" name="allergies" rows="2" placeholder="Укажите, если есть аллергия на что-либо…"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="f-comment">Трансфер</label>
+          <textarea id="f-comment" name="comment" rows="3" placeholder="Укажите, если нужен трансфер…"></textarea>
+        </div>
+        <button type="submit" class="btn-submit">
+          Отправить ответ
+          <span class="btn-arrow">→</span>
+        </button>
+      </form>
+      <p class="form-success scroll-reveal" id="form-success">
+        <b>Спасибо! Мы получили ваш ответ 💌</b>
+      </p>
+    </div>
+  </section>
+
+  <!-- Финальный экран -->
+  <section class="story-screen story-screen--finale" id="finale">
+    <div class="story-content">
+      <div class="finale-flower scroll-reveal">✿</div>
+      <p class="finale-text fade-up delay-200">До встречи на нашей свадьбе!</p>
+      <p class="finale-names fade-up delay-600">Тёма и Саша<br><span class="finale-soon">(<em>скоро Ромашевы</em>🌼)</span></p>
+      <p class="finale-date fade-up delay-800">08 · 07 · 2026</p>
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
